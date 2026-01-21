@@ -17,7 +17,7 @@ const Index = () => {
           className="max-w-3xl"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-[1.1] tracking-tight mb-6">
-            Welcome to FakePixel X Giveaways Official Page
+            the official website of FxG
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-2xl">
@@ -57,15 +57,15 @@ const Index = () => {
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-lg font-medium text-foreground">Giveaways We Host</span>
                 </div>
-                <ul className="space-y-3">
+                <ul className="space-y-2">
                   {[
                     "FakePixel Skyblock In-Game Coins",
                     "VIP, VIP+, MVP, MVP+ & Custom Ranks",
                     "Discord Nitro",
                     "Giftcards",
                   ].map((item, i) => (
-                    <li key={i} className="flex items-center gap-3 text-sm text-foreground">
-                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground" />
+                    <li key={i} className="flex items-center gap-2 text-sm text-foreground">
+                      <span className="w-1 h-1 rounded-full bg-muted-foreground" />
                       {item}
                     </li>
                   ))}
