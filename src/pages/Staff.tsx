@@ -85,9 +85,104 @@ const staffMembers: StaffMember[] = [
     image: "https://cdn.discordapp.com/avatars/905352681999188018/cec46c4e50f23189a44c1306138a6e4e.webp?size=128",
     description: "Still grinding for Judgment Core to make his Terminator.",
   },
+  // Sr. Moderators
+  {
+    id: 11,
+    name: "Greyan~Cot",
+    role: "Sr. Moderator",
+    image: "https://cdn.discordapp.com/avatars/841611608325488660/e1d6b587fb03cc2fbcc6315d8cc70a77.webp?size=128",
+    description: "i dont remeber who he is",
+  },
+  // Moderators
+  {
+    id: 12,
+    name: "Jatin",
+    role: "Moderator",
+    image: "https://cdn.discordapp.com/avatars/1316754985807122526/c3845b15153b85e87cb5d0b3997442f7.webp?size=128",
+    description: "no discription",
+  },
+  {
+    id: 13,
+    name: "Keshav",
+    role: "Moderator",
+    image: "https://cdn.discordapp.com/avatars/1244565799822430279/7c12e953c63f827f74482b6d4f62eb2d.webp?size=128",
+    description: "randomly cchats and ghostes people, but good guy",
+  },
+  {
+    id: 14,
+    name: "KillerCot",
+    role: "Moderator",
+    image: "https://cdn.discordapp.com/avatars/1080025913162469420/cc731fb82410c7e51ba0eb453493f00d.webp?size=128",
+    description: "incharge of our youtube and soial media page",
+  },
+  {
+    id: 15,
+    name: "lost",
+    role: "Moderator",
+    image: "https://cdn.discordapp.com/avatars/934817692362371112/c8ab6c38aa1fc9fd610438d617f9d164.webp?size=128",
+    description: "wait he is a staff???",
+  },
+  // Helpers
+  {
+    id: 16,
+    name: "AssassinCot",
+    role: "Helper",
+    image: "https://cdn.discordapp.com/avatars/1221052479936921610/fd88b286ce36b2522b5e55b3bb371ff7.webp?size=128",
+    description: "real discord username is _depressed_11, i love to cacll his dih-pressed",
+  },
+  {
+    id: 17,
+    name: "clonehero0904",
+    role: "Helper",
+    image: "https://cdn.discordapp.com/avatars/914077974746251306/5bf9071a7238b6395c6b7f1b213dcdf1.webp?size=128",
+    description: "a active staff of fakepixel x giveaways",
+  },
+  {
+    id: 18,
+    name: "𝗗𝗝",
+    role: "Helper",
+    image: "https://cdn.discordapp.com/avatars/1084399167566254190/63f10d6f5f140ea3c1602209feb67a77.webp?size=128",
+    description: "i dont like him",
+  },
+  {
+    id: 19,
+    name: "Pritam",
+    role: "Helper",
+    image: "https://cdn.discordapp.com/avatars/1317447751969144853/bff8634a9eebdcca46b991ae027e0ede.webp?size=128",
+    description: "oganda knuckls",
+  },
+  {
+    id: 20,
+    name: "WaffleCot",
+    role: "Helper",
+    image: "https://cdn.discordapp.com/avatars/980861143247630346/853b75c829a589c4e97c722c33668663.webp?size=128",
+    description: "smol duk",
+  },
+  // Jr. Helpers
+  {
+    id: 21,
+    name: "! Rafi .❄",
+    role: "Jr. Helper",
+    image: "https://cdn.discordapp.com/avatars/961528679115137065/e4404f21e7419b4a4335482c0b4b69b2.webp?size=128",
+    description: "cool boy (ACTUALLY CHAPRI)",
+  },
+  {
+    id: 22,
+    name: "Kannu",
+    role: "Jr. Helper",
+    image: "https://cdn.discordapp.com/avatars/854557437217341490/b77059ce9cf1902a2cdd23ef559c5529.webp?size=128",
+    description: "she draws good, and a good girl",
+  },
+  {
+    id: 23,
+    name: "kingamer786",
+    role: "Jr. Helper",
+    image: "https://cdn.discordapp.com/avatars/1184557374313341061/58505fc0522c072d553a9df3da09b12f.webp?size=1024",
+    description: "i dont know who is this.",
+  },
 ];
 
-const roleOrder = ["Owner", "Curator", "Deputy", "Admin"] as const;
+const roleOrder = ["Owner", "Curator", "Deputy", "Admin", "Sr. Moderator", "Moderator", "Helper", "Jr. Helper"] as const;
 
 const groupedStaff = roleOrder.map((role) => ({
   role,
