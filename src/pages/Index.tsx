@@ -26,13 +26,6 @@ const Index = () => {
 
           <div className="flex items-center gap-4 flex-wrap">
             <Link
-              to="/apply"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-foreground text-background rounded-md font-medium text-sm hover:bg-foreground/90 transition-colors"
-            >
-              Start building
-            </Link>
-            
-            <Link
               to="/staff"
               className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"
             >
