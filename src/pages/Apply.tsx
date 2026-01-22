@@ -18,7 +18,7 @@ const Apply = () => {
         </p>
 
         <a
-          href="https://forms.example.com/fxg-staff-application"
+          href="https://fxgstaffapply.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-5 py-2.5 bg-foreground text-background rounded-md font-medium text-sm hover:bg-foreground/90 transition-colors group mb-12"
