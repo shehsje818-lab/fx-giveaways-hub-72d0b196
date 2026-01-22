@@ -60,7 +60,7 @@ const Contact = () => {
             </div>
             
             <a
-              href="mailto:roshw0023@gmail.com"
+              href="mailto:roshw0023@gmail.com?subject=FXG%20Inquiry&body=Hello%20darkwall,%0A%0AI%20am%20writing%20to%20you%20regarding%20FakePixel%20X%20Giveaways.%0A%0A%5BPlease%20provide%20details%20about%20your%20inquiry%20here%5D%0A%0AThank%20you%20for%20your%20time.%0A%0ABest%20regards"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-foreground text-background rounded-md font-medium text-sm hover:bg-foreground/90 transition-colors group"
             >
               roshw0023@gmail.com
